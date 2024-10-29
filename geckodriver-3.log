@@ -1,0 +1,32 @@
+1730192841348	geckodriver	INFO	Listening on 127.0.0.1:62332
+1730192844425	mozrunner::runner	INFO	Running command: "C:\\Users\\Pichau\\.cache\\selenium\\firefox\\win64\\131.0.3\\firefox.exe" "--marionette" "--remote-debuggi ... " "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Pichau\\AppData\\Local\\Temp\\rust_mozprofileAtmf6e"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1730192844795	Marionette	INFO	Marionette enabled
+1730192844966	Marionette	INFO	Listening on port 62342
+WebDriver BiDi listening on ws://127.0.0.1:62333
+Read port: 62342
+1730192845273	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62333/devtools/browser/b71d1fc0-f99a-4511-a447-4498a8634e2f
+JavaScript warning: https://www.amazon.com.br/, line 2342: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/81LmaXL9x7L.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://www.amazon.com.br/, line 302: Script terminated by timeout at:
+w@https://www.amazon.com.br/:302:7036
+T/this.log@https://www.amazon.com.br/:302:7276
+I@https://www.amazon.com.br/:302:1020
+@https://www.amazon.com.br/:302:1813
+i/<@https://www.amazon.com.br/:283:136
+r/this.recordMetric@https://www.amazon.com.br/:2334:7988
+I@https://www.amazon.com.br/:302:1020
+@https://www.amazon.com.br/:302:1813
+i/<@https://www.amazon.com.br/:283:136
+g@https://www.amazon.com.br/:2334:10881
+D/<@https://www.amazon.com.br/:302:686
+t.emit@https://www.amazon.com.br/:302:1333
+D@https://www.amazon.com.br/:302:5709
+D/<@https://www.amazon.com.br/:302:686
+
+1730197365920	Marionette	INFO	Stopped listening on port 62342
+Dynamically enable window occlusion 1

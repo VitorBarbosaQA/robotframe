@@ -1,0 +1,19 @@
+1730193243980	geckodriver	INFO	Listening on 127.0.0.1:62670
+1730193247062	mozrunner::runner	INFO	Running command: "C:\\Users\\Pichau\\.cache\\selenium\\firefox\\win64\\131.0.3\\firefox.exe" "--marionette" "--remote-debuggi ... " "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Pichau\\AppData\\Local\\Temp\\rust_mozprofileV2zPXV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1730193247475	Marionette	INFO	Marionette enabled
+1730193247643	Marionette	INFO	Listening on port 62680
+WebDriver BiDi listening on ws://127.0.0.1:62671
+Read port: 62680
+1730193247877	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62671/devtools/browser/93f370e7-7356-4594-96de-c53dbcc55672
+JavaScript warning: https://www.amazon.com.br/, line 2349: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/81LmaXL9x7L.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://www.amazon.com.br/, line 2297: Script terminated by timeout at:
+l@https://www.amazon.com.br/:2297:262
+
+1730197365027	Marionette	INFO	Stopped listening on port 62680
+Dynamically enable window occlusion 1

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.0 on win32)" generated="2024-10-29T07:40:39.084208" rpa="false" schemaversion="5">
+<suite id="s1" name="Amarom" source="C:\Users\Pichau\OneDrive\Área de Trabalho\robotvemca\amarom.robot">
+<test id="s1-t1" name="casos de Teste" line="5">
+<kw name="Acessar a pagina da amazon" owner="Resourse">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-10-29T07:40:39.369152" level="INFO">Opening browser 'chrome' to base url 'https://www.amazon.com.br/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<arg>executable_path=${CHROMEPATCH}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-10-29T07:40:39.368686" elapsed="2.263065"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-10-29T07:40:49.632601" level="INFO">Slept 8 seconds.</msg>
+<arg>8s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-10-29T07:40:41.632006" elapsed="8.000757"/>
+</kw>
+<status status="PASS" start="2024-10-29T07:40:39.367565" elapsed="10.265385"/>
+</kw>
+<kw name="Pesquisar celular" owner="Resourse">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-10-29T07:40:49.634280" level="INFO">Typing text 'celular' into text field 'id=twotabsearchtextbox'.</msg>
+<arg>id=twotabsearchtextbox</arg>
+<arg>celular</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-29T07:40:49.633826" elapsed="0.197640"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-10-29T07:40:49.832148" level="INFO">Clicking element 'id=nav-search-submit-button'.</msg>
+<arg>id=nav-search-submit-button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-29T07:40:49.831817" elapsed="2.349359"/>
+</kw>
+<status status="PASS" start="2024-10-29T07:40:49.633411" elapsed="2.547926"/>
+</kw>
+<kw name="Validar o processo" owner="Resourse">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>text=Resultados</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-10-29T07:40:52.182041" elapsed="0.093847"/>
+</kw>
+<status status="PASS" start="2024-10-29T07:40:52.181706" elapsed="0.094337"/>
+</kw>
+<status status="PASS" start="2024-10-29T07:40:39.366565" elapsed="12.909856"/>
+</test>
+<doc>Teste Exemplo</doc>
+<status status="PASS" start="2024-10-29T07:40:39.085999" elapsed="13.191497"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Amarom">Amarom</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
